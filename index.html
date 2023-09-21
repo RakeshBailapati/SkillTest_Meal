@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/2eef90cfe1.js" crossorigin="anonymous"></script>
+    <title>MyMeal</title>
+</head>
+<body>
+    <header>
+        <div class="meal-header-div">
+            <img src="imgs/Logo.png" alt="">
+            
+        </div>
+        <div class="Header-meal">
+            <span>
+                My Meal
+            </span>
+        </div>
+        <div></div>
+        <!-- <div class="box">
+            dynamic text
+        </div> -->
+        <div class="Header-profile">
+            <i class="fa-solid fa-user fa-beat"></i>
+            <span>profile</span>
+        </div>
+        <div class="Header-Home">
+        <a href="" class="youtube-link"><i class="fa fa-home"></i>
+            <span>Home</span>
+        </a>
+        </div>
+        <div class="Header-fav">
+            <a href="html/fav.html" target="_blank" class="youtube-link"><i class="fa-regular fa-heart fa-shake"></i>
+                <span>
+                    favourite
+                </span>
+            </a>
+        </div>
+        <div class="Header-About">
+            <a href="https://github.com/RakeshBailapati/SkillTest_Meal" rel="noopener" target="_blank" class="youtube-link">
+            <i class="fa-solid fa-address-card"></i>
+            <span>
+                About
+            </span>
+            </a>
+        </div>
+    </header>
+
+    <div class="search-container">
+        <input type="text" id="search-box" placeholder="Search...">
+    </div>
+    <div id="results-container"></div>
+    <button id="more-button"  name="more">More</button>
+    <div id="favorites-container">
+        <h3>Favorites</h3>
+        <ul id="favorites-list"></ul>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
